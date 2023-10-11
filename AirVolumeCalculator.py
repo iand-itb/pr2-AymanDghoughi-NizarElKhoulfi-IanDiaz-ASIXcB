@@ -6,13 +6,13 @@ Calcular el volum d'una habitació a partir de les 3 dimensions
 '''
 
 print("Amplada de l'habitació?")
-amplada = int(input())
+amplada = float(input())
 print("Llargada de l'habitació?")
-llargada = int(input())
+llargada = float(input())
 print("Alçada de l'habitació?")
-alcada = int(input())
+alcada = float(input())
 
-volumen = int(amplada * llargada * alcada)
+volumen = float(amplada * llargada * alcada)
 
-print("El volum de l'aula és " + str(volumen) + "m³")
+print(f"El volum de l'aula és {volumen:.2f} m³")
 
