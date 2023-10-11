@@ -6,10 +6,15 @@ Mostra True si el cinquè valor, està comprès dins els dos rangs
 '''
 
 #Agafem l'input de l'usuari i el guardem en un array com a nombres enters
-valors = list(map(int, input("Introdüeix 5 valors separats per un espai...\n").split(" ")))
+try:
+    valors = list(map(int, input("Introdüeix 5 valors separats per un espai...\n").split(" ")))
 
 #Comprovem si el cinquè nombre està entre els rangs de primer-segon i tercer-quart.
-if valors[4] in range(valors[0], valors[1]) and range(valors[2], valors[3]):
-    print("True")
-else:
-    print("False")
+    if valors[4] in range(valors[0], valors[1]) and range(valors[2], valors[3]):
+        print("True")
+    else:
+        print("False")
+#Si ocurreix una excepció la mostrem per pantalla i exitem el programa amb codi d'error
+except Exception as e:
+    print(e)
+    exit(1)
