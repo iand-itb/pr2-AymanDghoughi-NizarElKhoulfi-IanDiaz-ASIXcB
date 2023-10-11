@@ -5,12 +5,6 @@ Descripció: Llegeixi l'edat de l'usuari i mostri si té edat per treballar
 11/10/23
 '''
 
-un = 1
-dos = 2
-tres = 3
-quatre = 4
-cinc = 5
-
 word = str(input("Tell me a word: "))
-
-if word
+word = word.replace("a", "1").replace("A", "1").replace("e", "2").replace("E", "2").replace("i", "3").replace("I", "3").replace("o", "4").replace("O", "4").replace("u", "5").replace("U", "5")
+print(word)
