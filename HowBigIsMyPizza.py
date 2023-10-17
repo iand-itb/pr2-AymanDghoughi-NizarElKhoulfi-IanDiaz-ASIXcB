@@ -5,11 +5,15 @@ ASIXc M03 UF1 A2
 Descripció: Programa per calcular la superfície d'una pizza a partir del diàmetre
 '''
 
-import math
+try:
+    import math
 
-#Demanem el diàmetre de la pizza com a float.
-diametre = float(input("Introdueix el diàmetre de la pizza en centímetres...\t"))
+    diàmetre = float(input("Introdueix el diàmetre de la pizza en centímetres...\t"))
 
-superficie = math.pi * (diametre**2 / 4)
+    superfície = math.pi * (diàmetre**2 / 4)
 
-print(f"\nLa superficie de la pizza es: {superficie:.2f}cm")
+    print(f"\nLa superficie de la pizza es: {superfície:.2f}cm")
+
+except Exception as e:
+    print(e)
+    exit(1)
