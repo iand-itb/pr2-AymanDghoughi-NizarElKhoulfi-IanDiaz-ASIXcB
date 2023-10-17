@@ -1,8 +1,8 @@
 '''
-Ayman Dghoughi, Nizar ElKhoulfi, Ian Diaz
-ASIXc M03 UF1 A2
-Descripció: Calcular la superfície d'una pizza a partir del diàmetre
+Ayman Dghoughi, Nizar El Khoulfi, Ian Diaz
 11/10/23
+ASIXc M03 UF1 A2
+Descripció: Programa per calcular la superfície d'una pizza a partir del diàmetre
 '''
 
 import math

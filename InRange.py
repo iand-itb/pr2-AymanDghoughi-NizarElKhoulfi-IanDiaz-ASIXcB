@@ -1,8 +1,8 @@
 '''
-Ayman Dghoughi, Nizar ElKhoulfi, Ian Diaz
-M03 UF1
-Mostra True si el cinquè valor, està comprès dins els dos rangs
+Ayman Dghoughi, Nizar El Khoulfi, Ian Diaz
 11/10/23
+ASIXc M03 UF1 A2
+Descripció: Programa que mostra True si el cinquè valor, està comprès dins els dos rangs
 '''
 
 try:

@@ -1,8 +1,8 @@
 '''
-Ayman Dghoughi, Nizar ElKhoulfi, Ian Diaz
-ASIXc M03 UF1 A2
-Descripció: Llegeixi l'edat de l'usuari i mostri si té edat per treballar
+Ayman Dghoughi, Nizar El Khoulfi, Ian Diaz
 11/10/23
+ASIXc M03 UF1 A2
+Descripció: Programa que llegeixi l'edat de l'usuari i mostri si té edat per treballar
 '''
 
 edat = int(input("Quina edat tens? "))
