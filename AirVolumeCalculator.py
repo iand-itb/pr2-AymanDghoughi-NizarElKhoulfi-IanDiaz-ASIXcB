@@ -6,17 +6,17 @@ Descripció: Programa per calcular la superfície d'una pizza a partir del diàm
 '''
 
 #Demanem al usuari els diferents valors per poder calcular el volum
-print("Amplada de l'habitació?")
+print("Amplada de l'habitació? ")
 #Agafem el valor i el convertim a float
 amplada = float(input())
 
 #Demanem al usuari els diferents valors per poder calcular el volum
-print("Llargada de l'habitació?")
+print("Llargada de l'habitació? ")
 #Agafem el valor i el convertim a float
 llargada = float(input())
 
 #Demanem al usuari els diferents valors per poder calcular el volum
-print("Alçada de l'habitació?")
+print("Alçada de l'habitació? ")
 #Agafem el valor i el convertim a float
 alcada = float(input())
 
